@@ -1,0 +1,2 @@
+def cal():
+    return "hehehehe"
