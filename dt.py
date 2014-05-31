@@ -7,6 +7,9 @@
 # datetime.date和datetime.time分别提供了对日期和时间的访问以及算数操作。
 # datetime.datetime是二者的组合。
 
+# 遇到问题，文件命名为datetime.py导致报错，datetime没有now。
+# 因为搜索模块先从当前文件夹开始，该模块屏蔽了系统内置的datetime模块。
+
 import time
 from datetime import datetime
 
